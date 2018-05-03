@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-#西瓜书 决策树的实现 
+#西瓜书 决策树的实现
 import math
 import random
 import numpy as np
@@ -40,7 +40,7 @@ def getSubDataset(dataset,colindex,value):
 '''
 输入：数据集
 功能：选择最优的特征，以便得到最优的子数据集（可简单的理解为特征在决策树中的先后顺序）
-      选出最大信息增益的属性，即第几列
+      选出最大信息增益的属性，即第几列 （使用信息增益来选取最优属性）
 输出：最优特征在数据集中的列索引
 '''
 def information_Gain(dataset):
@@ -62,7 +62,14 @@ def information_Gain(dataset):
             GainD = info_Gain_i
             Feature = i
     return Feature
-
+'''
+输入：数据集
+功能：选择最优的特征，以便得到最优的子数据集（可简单的理解为特征在决策树中的先后顺序）
+      选出最大信息增益的属性，即第几列  （使用增益率来选出最优属性）
+输出：最优特征在数据集中的列索引
+'''
+def C45_gain_ratio(dataset):
+    pass
 '''
 输入：子数据集的类别标签列
 功能：找出该数据集个数最多的类别(叶节点)
@@ -103,7 +110,6 @@ def creatTree(dataset,labels):
     for value in uniqueBestFeatValues:
         subDataset = getSubDataset(dataset,bestFeature,value)
         sublabels = labels[:]
-        print(sublabels)
         myTree[bestFeatlabel][value] = creatTree(subDataset,sublabels)
     return myTree
 
@@ -136,6 +142,9 @@ def gradTree(filename):
     fr = open(filename)
     return pickle.load(fr)
 
+#预剪枝
+def pre_pruning():
+    pass
 if __name__ == '__main__':
     x = [[0,0,0,0,0,0,1],
      [1,0,1,0,0,0,1],
