@@ -221,6 +221,49 @@ def gradTree(filename):
 #预剪枝
 def pre_pruning():
     pass
+#后剪枝
+def post_pruning():
+    pass
+#连续值处理
+'''
+输入：数据集，连续值列
+功能：对连续值列进行离散化，将其加入数据集中
+输出：数据集（加入离散化的连续值列）
+'''
+def bi_partition(dataset,feature):
+    featuresort =sorted(feature)
+    len_f = len(feature)
+    EntD = calcShannonEnt(dataset)
+    GainD = 0.0
+    T_huafen = -1
+    T_feature = []#存储候选划分点
+    for i,k in enumerate(featuresort):
+        if i!= 0:
+            T_feature.append((a+k)/2.0)
+        a = k
+    #print(T_feature)
+    for T_i in T_feature:
+        sub_dataset_minu=[]
+        sub_dataset_plus=[]
+        for i in range(len_f):
+            if feature[i] < T_i:
+                sub_dataset_minu.append(dataset[i])
+            else:
+                sub_dataset_plus.append(dataset[i])
+        GainD_i = EntD - (calcShannonEnt(sub_dataset_minu)*len(sub_dataset_minu)/len(dataset)
+                    +calcShannonEnt(sub_dataset_plus) *len(sub_dataset_plus)/len(dataset) )
+        if GainD_i > GainD:
+            GainD = GainD_i
+            T_huafen = T_i
+    for i,msample in enumerate(dataset):
+        if feature[i]< T_huafen:
+            msample.insert(-1,0)
+        else:
+            msample.insert(-1,1)
+    return dataset
+
+
+
 if __name__ == '__main__':
     x = [[0,0,0,0,0,0,1],
      [1,0,1,0,0,0,1],
@@ -239,9 +282,11 @@ if __name__ == '__main__':
      [1,1,0,0,1,1,0],
      [2,0,0,2,2,0,0],
      [0,0,1,1,1,0,0]]
-    featurelabels = ['色泽','根蒂','敲声','纹理','脐部','触感']
-    labels = ['色泽','根蒂','敲声','纹理','脐部','触感']#python 函数是引用传递，前面函数会删去labels
+    x2 = [0.697,0.774,0.634,0.608,0.556,0.403,0.481,0.437,0.666,0.243,0.245,0.343,0.639,0.657,0.360,0.593,0.719]
+    bi_partition(x,x2)#对连续中进行预处理，并且插入数据集中 引用传递，直接修改x
+    featurelabels = ['色泽','根蒂','敲声','纹理','脐部','触感','密度']
+    labels = ['色泽','根蒂','敲声','纹理','脐部','触感','密度']#python 函数是引用传递，前面函数会删去labels
     trainTree = creatTree(x,featurelabels)
     print(trainTree)
-    classlabel = classify(trainTree,labels,[0,1,0,0,1,1])
+    classlabel = classify(trainTree,labels,[0,1,0,0,1,1,0])
     print(classlabel)
