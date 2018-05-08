@@ -15,61 +15,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DT_C4.5.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DecisionTree/DT_C4.5.py">
+      <file leaf-file-name="HMM_ProbabilityCalculation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HMM/HMM_ProbabilityCalculation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DT_ID3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DecisionTree/DT_ID3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="95" lean-forward="false" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DecisionTree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DecisionTree/DecisionTree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7776">
-              <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+            <state relative-caret-position="486">
+              <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
               <folding>
-                <element signature="e#35#46#0" expanded="true" />
+                <element signature="e#951#1087#1" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DT_CART.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DecisionTree/DT_CART.py">
+      <file leaf-file-name="HMM_Baum_Welch.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HMM/HMM_Baum_Welch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="100" column="20" lean-forward="false" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+            <state relative-caret-position="2538">
+              <caret line="100" column="37" lean-forward="false" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
               <folding>
-                <element signature="e#67#78#0" expanded="true" />
-                <element signature="e#964#1085#1" expanded="false" />
-                <element signature="e#1109#1982#0" expanded="false" />
-                <element signature="e#1983#2051#1" expanded="false" />
-                <element signature="e#3214#3583#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DT_CART_bipart.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DecisionTree/DT_CART_bipart.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-606">
-              <caret line="214" column="45" lean-forward="false" selection-start-line="214" selection-start-column="45" selection-end-line="214" selection-end-column="45" />
-              <folding>
-                <element signature="e#209#219#0" expanded="true" />
+                <element signature="e#841#975#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -95,11 +59,14 @@
         <option value="$PROJECT_DIR$/DecisionTree/DT_ID3.py" />
         <option value="$PROJECT_DIR$/DecisionTree/DT_CART.py" />
         <option value="$PROJECT_DIR$/DecisionTree/DT_CART_bipart.py" />
+        <option value="$PROJECT_DIR$/HMM.py" />
+        <option value="$PROJECT_DIR$/HMM/HMM_ProbabilityCalculation.py" />
+        <option value="$PROJECT_DIR$/HMM/HMM_Baum_Welch.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1432" />
+    <option name="x" value="1416" />
     <option name="y" value="29" />
     <option name="width" value="1280" />
     <option name="height" value="714" />
@@ -132,19 +99,19 @@
             <path>
               <item name="ML_algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="DecisionTree" type="462c0819:PsiDirectoryNode" />
+              <item name="HMM" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -158,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DT_CART_bipart">
+  <component name="RunManager" selected="Python.HMM_Baum_Welch">
     <configuration name="DT_C4.5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -213,36 +180,56 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="DT_ID3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="HMM_Baum_Welch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DecisionTree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HMM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ML_algorithm" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionTree/DT_ID3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HMM/HMM_Baum_Welch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="4">
+    <configuration name="HMM_ProbabilityCalculation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HMM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML_algorithm" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HMM/HMM_ProbabilityCalculation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.DT_C4.5" />
-      <item index="1" class="java.lang.String" itemvalue="Python.DT_ID3" />
-      <item index="2" class="java.lang.String" itemvalue="Python.DT_CART" />
-      <item index="3" class="java.lang.String" itemvalue="Python.DT_CART_bipart" />
+      <item index="1" class="java.lang.String" itemvalue="Python.DT_CART" />
+      <item index="2" class="java.lang.String" itemvalue="Python.DT_CART_bipart" />
+      <item index="3" class="java.lang.String" itemvalue="Python.HMM_ProbabilityCalculation" />
+      <item index="4" class="java.lang.String" itemvalue="Python.HMM_Baum_Welch" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.DT_CART_bipart" />
-        <item index="1" class="java.lang.String" itemvalue="Python.DT_CART" />
-        <item index="2" class="java.lang.String" itemvalue="Python.DT_C4.5" />
-        <item index="3" class="java.lang.String" itemvalue="Python.DT_ID3" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.HMM_Baum_Welch" />
+        <item index="1" class="java.lang.String" itemvalue="Python.HMM_ProbabilityCalculation" />
+        <item index="2" class="java.lang.String" itemvalue="Python.DT_CART_bipart" />
+        <item index="3" class="java.lang.String" itemvalue="Python.DT_CART" />
+        <item index="4" class="java.lang.String" itemvalue="Python.DT_C4.5" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +237,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\BARKTEGH\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -264,6 +251,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -272,7 +260,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25587466" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -299,6 +287,56 @@
     <entry file="file://$PROJECT_DIR$/DecisionTree/DT_C4.5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DecisionTree/DT_ID3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="95" lean-forward="false" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DecisionTree/DecisionTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7884">
+          <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+          <folding>
+            <element signature="e#35#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DecisionTree/DT_CART.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="100" column="20" lean-forward="false" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+          <folding>
+            <element signature="e#67#78#0" expanded="true" />
+            <element signature="e#964#1085#1" expanded="false" />
+            <element signature="e#1109#1982#0" expanded="false" />
+            <element signature="e#1983#2051#1" expanded="false" />
+            <element signature="e#3214#3583#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DecisionTree/DT_CART_bipart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5103">
+          <caret line="189" column="17" lean-forward="true" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
+          <folding>
+            <element signature="e#209#219#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DecisionTree/DT_C4.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
           <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding />
         </state>
@@ -317,7 +355,7 @@
         <state relative-caret-position="7884">
           <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
           <folding>
-            <element signature="e#35#46#0" expanded="true" />
+            <element signature="e#35#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -357,7 +395,7 @@
         <state relative-caret-position="4698">
           <caret line="178" column="13" lean-forward="true" selection-start-line="178" selection-start-column="13" selection-end-line="178" selection-end-column="13" />
           <folding>
-            <element signature="e#35#46#0" expanded="true" />
+            <element signature="e#35#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -376,35 +414,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DecisionTree/DT_ID3.py">
+    <entry file="file://$PROJECT_DIR$/HMM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="95" lean-forward="false" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DecisionTree/DT_C4.5.py">
+    <entry file="file://$PROJECT_DIR$/DecisionTree/DT_CART_bipart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DecisionTree/DecisionTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7776">
-          <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+        <state relative-caret-position="5103">
+          <caret line="189" column="17" lean-forward="false" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
           <folding>
-            <element signature="e#35#46#0" expanded="true" />
+            <element signature="e#209#219#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DecisionTree/DT_CART.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
+        <state relative-caret-position="112">
           <caret line="100" column="20" lean-forward="false" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
           <folding>
             <element signature="e#67#78#0" expanded="true" />
@@ -416,12 +446,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DecisionTree/DT_CART_bipart.py">
+    <entry file="file://$PROJECT_DIR$/DecisionTree/DecisionTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-606">
-          <caret line="214" column="45" lean-forward="false" selection-start-line="214" selection-start-column="45" selection-end-line="214" selection-end-column="45" />
+        <state relative-caret-position="355">
+          <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
           <folding>
-            <element signature="e#209#219#0" expanded="true" />
+            <element signature="e#35#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DecisionTree/DT_ID3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="10" column="95" lean-forward="false" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DecisionTree/DT_C4.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HMM/HMM_ProbabilityCalculation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+          <folding>
+            <element signature="e#951#1087#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HMM/HMM_Baum_Welch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2538">
+          <caret line="100" column="37" lean-forward="false" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
+          <folding>
+            <element signature="e#841#975#1" expanded="false" />
           </folding>
         </state>
       </provider>
